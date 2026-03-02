@@ -3,8 +3,13 @@ body {
     padding: 16px;
 }
 
+h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
 .card {
-    border: 1px solid #ddd;
+    border: 1px solid #332626;
     border-radius: 12px;
     padding: 12px;
     margin: 12px 0;
@@ -24,4 +29,10 @@ button {
     border-radius: 12px;
     border: 0;
     font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #332626;
+    color: white;
 }
